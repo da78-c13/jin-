@@ -171,3 +171,5 @@ python main.py browse     # 查询可选课程列表（需选课已开放）
 ## 许可证
 
 MIT License
+Written by Floruitshow-DOUDOU，特别鸣谢杭州电子科技大学和杭州城市大学的仙贝
+本作品仅由个人交流学习使用，请勿用于商业用途，请在下载后24小时删除。
