@@ -1,0 +1,100 @@
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 📚 浏览可选课程模式
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 开始登录教务系统
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 登录地址: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 步骤1: 访问登录页面获取初始Cookie...
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 获取到Cookie: ['JSESSIONID', 'route']
+2026-09-22 12:33:15 - qiangke_zjjhkm - DEBUG - 获取到CSRF Token: 1b31f4b5-aabc-4012-a...
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 步骤2: 获取RSA公钥...
+2026-09-22 12:33:15 - qiangke_zjjhkm - DEBUG - 获取RSA公钥成功
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - RSA公钥获取成功 (模数长度: 129字节)
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 步骤3: 加密密码...
+2026-09-22 12:33:15 - qiangke_zjjhkm - DEBUG - RSA密码加密成功
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 密码加密完成
+2026-09-22 12:33:15 - qiangke_zjjhkm - INFO - 步骤4: 提交登录表单...
+2026-09-22 12:33:16 - qiangke_zjjhkm - INFO - 登录响应状态码: 200
+2026-09-22 12:33:16 - qiangke_zjjhkm - INFO - 登录响应URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html
+2026-09-22 12:33:16 - qiangke_zjjhkm - DEBUG - 当前URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html
+2026-09-22 12:33:16 - qiangke_zjjhkm - ERROR - ✗ 登录失败，请检查学号和密码是否正确
+2026-09-22 12:33:16 - qiangke_zjjhkm - ERROR - 登录失败
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 快速测试模式
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 开始登录教务系统
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 登录地址: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 步骤1: 访问登录页面获取初始Cookie...
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 获取到Cookie: ['JSESSIONID', 'route']
+2026-09-22 12:34:49 - qiangke_zjjhkm - DEBUG - 提取到 19 个隐藏字段: ['dlmmsfknt', 'ydappsfbldlzt', 'yzcskz', 'mmsfjm', 'mmsrddcshkzfs', 'dlsfbxyzm', 'dlsbsdsj', 'sfxswechatlogin', 'scene_id', 'authJwglxtLoginURL', 'rzzxxs', 'rzys', 'sfzywqh', 'xxdm', 'userPolicyOn', 'dxsyrz', 'csrftoken', 'language', 'ydType']
+2026-09-22 12:34:49 - qiangke_zjjhkm - DEBUG - CSRF Token: 8e82b4f1-e676-495a-9b89-7da2f1...
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 步骤2: 获取RSA公钥...
+2026-09-22 12:34:49 - qiangke_zjjhkm - DEBUG - 获取RSA公钥成功
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - RSA公钥获取成功 (模数长度: 129字节)
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 步骤3: 加密密码...
+2026-09-22 12:34:49 - qiangke_zjjhkm - DEBUG - RSA密码加密成功
+2026-09-22 12:34:49 - qiangke_zjjhkm - INFO - 密码加密完成
+2026-09-22 12:34:49 - qiangke_zjjhkm - DEBUG - 用户信息确认检查: false
+2026-09-22 12:34:49 - qiangke_zjjhkm - DEBUG - 登录状态检查: 1_1790051607637
+2026-09-22 12:34:50 - qiangke_zjjhkm - DEBUG - 已退出旧会话
+2026-09-22 12:34:50 - qiangke_zjjhkm - INFO - 步骤5: 提交登录表单...
+2026-09-22 12:34:50 - qiangke_zjjhkm - INFO - 登录响应状态码: 200
+2026-09-22 12:34:50 - qiangke_zjjhkm - INFO - 登录响应URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html?time=1790051690004
+2026-09-22 12:34:50 - qiangke_zjjhkm - DEBUG - 当前URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html?time=1790051690004
+2026-09-22 12:34:50 - qiangke_zjjhkm - ERROR - ✗ 登录失败，请检查学号和密码是否正确
+2026-09-22 12:34:50 - qiangke_zjjhkm - ERROR - 登录测试失败
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 快速测试模式
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 开始登录教务系统
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 登录地址: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 步骤1: 访问登录页面获取初始Cookie...
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 获取到Cookie: ['JSESSIONID', 'route']
+2026-09-22 12:35:30 - qiangke_zjjhkm - DEBUG - 提取到 19 个隐藏字段: ['dlmmsfknt', 'ydappsfbldlzt', 'yzcskz', 'mmsfjm', 'mmsrddcshkzfs', 'dlsfbxyzm', 'dlsbsdsj', 'sfxswechatlogin', 'scene_id', 'authJwglxtLoginURL', 'rzzxxs', 'rzys', 'sfzywqh', 'xxdm', 'userPolicyOn', 'dxsyrz', 'csrftoken', 'language', 'ydType']
+2026-09-22 12:35:30 - qiangke_zjjhkm - DEBUG - CSRF Token: 429c672c-6475-4a30-a0a2-d2a5fc...
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 步骤2: 获取RSA公钥...
+2026-09-22 12:35:30 - qiangke_zjjhkm - DEBUG - 获取RSA公钥成功
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - RSA公钥获取成功 (模数长度: 129字节)
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 步骤3: 加密密码...
+2026-09-22 12:35:30 - qiangke_zjjhkm - DEBUG - RSA密码加密成功
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 密码加密完成
+2026-09-22 12:35:30 - qiangke_zjjhkm - DEBUG - 用户信息确认检查: false
+2026-09-22 12:35:30 - qiangke_zjjhkm - DEBUG - 登录状态检查: 3_1790052007707
+2026-09-22 12:35:30 - qiangke_zjjhkm - DEBUG - 已退出旧会话
+2026-09-22 12:35:30 - qiangke_zjjhkm - INFO - 步骤5: 提交登录表单...
+2026-09-22 12:35:31 - qiangke_zjjhkm - INFO - 登录响应状态码: 200
+2026-09-22 12:35:31 - qiangke_zjjhkm - INFO - 登录响应URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html?time=1790051730834
+2026-09-22 12:35:31 - qiangke_zjjhkm - DEBUG - 当前URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html?time=1790051730834
+2026-09-22 12:35:31 - qiangke_zjjhkm - ERROR - ✗ 登录失败，请检查学号和密码是否正确
+2026-09-22 12:35:31 - qiangke_zjjhkm - ERROR - 登录测试失败
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - 快速测试模式
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - ============================================================
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - 开始登录教务系统
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - 登录地址: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - ==================================================
+2026-09-22 12:37:07 - qiangke_zjjhkm - INFO - 步骤1: 访问登录页面获取初始Cookie...
+2026-09-22 12:37:08 - qiangke_zjjhkm - INFO - 获取到Cookie: ['JSESSIONID', 'route']
+2026-09-22 12:37:08 - qiangke_zjjhkm - DEBUG - 提取到 19 个隐藏字段: ['dlmmsfknt', 'ydappsfbldlzt', 'yzcskz', 'mmsfjm', 'mmsrddcshkzfs', 'dlsfbxyzm', 'dlsbsdsj', 'sfxswechatlogin', 'scene_id', 'authJwglxtLoginURL', 'rzzxxs', 'rzys', 'sfzywqh', 'xxdm', 'userPolicyOn', 'dxsyrz', 'csrftoken', 'language', 'ydType']
+2026-09-22 12:37:08 - qiangke_zjjhkm - DEBUG - CSRF Token: 0b61c319-48b5-4ee2-8f45-a69593...
+2026-09-22 12:37:08 - qiangke_zjjhkm - INFO - 步骤2: 获取RSA公钥...
+2026-09-22 12:37:08 - qiangke_zjjhkm - DEBUG - 获取RSA公钥成功
+2026-09-22 12:37:08 - qiangke_zjjhkm - INFO - RSA公钥获取成功 (模数长度: 129字节)
+2026-09-22 12:37:08 - qiangke_zjjhkm - INFO - 步骤3: 加密密码...
+2026-09-22 12:37:08 - qiangke_zjjhkm - DEBUG - RSA密码加密成功
+2026-09-22 12:37:08 - qiangke_zjjhkm - INFO - 密码加密完成
+2026-09-22 12:37:08 - qiangke_zjjhkm - DEBUG - 用户信息确认检查: false
+2026-09-22 12:37:08 - qiangke_zjjhkm - DEBUG - 登录状态检查: 5_1790052069000
+2026-09-22 12:37:08 - qiangke_zjjhkm - DEBUG - 已退出旧会话
+2026-09-22 12:37:08 - qiangke_zjjhkm - INFO - 步骤5: 提交登录表单...
+2026-09-22 12:37:09 - qiangke_zjjhkm - INFO - 登录响应状态码: 200
+2026-09-22 12:37:09 - qiangke_zjjhkm - INFO - 登录响应URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html?time=1790051828629
+2026-09-22 12:37:09 - qiangke_zjjhkm - DEBUG - 当前URL: https://jwxt.zjjhkm.edu.cn/jwglxt/xtgl/login_slogin.html?time=1790051828629
+2026-09-22 12:37:09 - qiangke_zjjhkm - ERROR - ✗ 登录失败，请检查学号和密码是否正确
+2026-09-22 12:37:09 - qiangke_zjjhkm - ERROR - 登录测试失败
