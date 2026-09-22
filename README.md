@@ -1,5 +1,4 @@
-
-[Uploading README.md…]()
+[README.md](https://github.com/user-attachments/files/32518647/README.md)
 # 浙江金华科贸职业技术学院 - 自动抢课工具
 
 基于 [wolverine396/qiangke](https://github.com/wolverine396/qiangke) 改造，适配本校正方教务系统 v9.0。
@@ -23,17 +22,47 @@
 
 ### 第1步：安装依赖
 
+**方式一：双击安装（推荐）**
 ```bash
-cd qiangke_zjjhkm
+双击 install.bat
+```
+
+**方式二：命令行安装**
+```bash
 pip install -r requirements.txt
 ```
 
-### 第2步：启动配置工具
+安装完成后会显示：
 
+```
+=======================================================
+   全部安装成功！
+
+   接下来你可以：
+
+   方案一（推荐）：打开网页配置工具
+     python config_web.py
+
+   方案二：直接运行抢课程序
+     python main.py
+
+   方案三：测试登录是否正常
+     python main.py test
+=======================================================
+
+   3 秒后自动关闭...
+```
+
+### 第2步：选择启动方式
+
+安装完成后，根据你的需求选择以下方案：
+
+#### 方案一（推荐）：网页配置 → 开抢
+
+**1. 启动配置工具**
 ```bash
 python config_web.py
 ```
-
 浏览器会自动打开配置页面 `http://localhost:8080`，你会看到：
 
 | 卡片 | 填什么 |
@@ -44,13 +73,23 @@ python config_web.py
 
 填完后点击 **💾 保存配置**，所有信息会自动保存到本地文件。
 
-### 第3步：开始抢课
+**2. 开始抢课**
+```bash
+python main.py
+```
+程序会显示倒计时，到点自动登录并开抢！
 
+#### 方案二：直接配置 → 开抢
+
+直接编辑 `.env` 和 `courses.json` 文件，然后运行：
 ```bash
 python main.py
 ```
 
-程序会显示倒计时，到点自动登录并开抢！
+#### 方案三：测试登录
+```bash
+python main.py test
+```
 
 ---
 
@@ -171,5 +210,3 @@ python main.py browse     # 查询可选课程列表（需选课已开放）
 ## 许可证
 
 MIT License
-Written by Floruitshow-DOUDOU，特别鸣谢杭州电子科技大学和杭州城市大学的仙贝
-本作品仅由个人交流学习使用，请勿用于商业用途，请在下载后24小时删除。
